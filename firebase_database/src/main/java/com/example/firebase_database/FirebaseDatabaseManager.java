@@ -16,8 +16,6 @@ public class FirebaseDatabaseManager {
 
     public  FirebaseDatabaseManager(Context context){
         mContext = context;
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
-
     }
 
     public  void createTablewithChildAndFileds(String tablename, final String child, final HashMap tableFields){
