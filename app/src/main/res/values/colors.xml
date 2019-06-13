@@ -3,4 +3,33 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="offwhite">#f8f8f8</color>
+    <color name="black">#000000</color>
+    <color name="green">#5cb85c</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#d9534f</color>
+    <color name="grey_white_background">#F8F8F8</color>
+    <color name="back_drawer">#312E2E</color>
+    <color name="green_text_color">#5CB701</color>
+    <color name="grey_text_color">#5B5B5B</color>
+    <color name="grey_line_color">#CBD0CF</color>
+    //background green color
+    <color name="green_background">#85e327</color>
+    //color in navigation bar when arabic or english is selected and color of naviagtion
+    <color name="tab_back_click">#4b4b4b</color>
+    //black color when not selected
+    <color name="black_nav">#333333</color>
+    //color of add to favourite button
+    <color name="orange_fav_bt">#f0ad4e</color>
+    <color name="grey_view">#B4949191</color>
+    <color name="light_grey">#B4C5BFBF</color>
+    <color name="view">#36949191</color>
+    <color name="white_background">#ffffff</color>
+    <color name="text_color">#5B5B5B</color>
+    <color name="blue">#7E9BEB</color>
+    <color name="black_text">#E1333333</color>
+    <color name="sign_bt_background">#CD3C3E</color>
+    <color name="register_bt_background">#4BA648</color>
+    <color name="selective_color">#aa03631C</color>
+    <color name="grey">#B1AEB4</color>
 </resources>

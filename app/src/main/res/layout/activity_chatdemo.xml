@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/iv_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:src="@drawable/arrow"/>
+
+
+        <com.example.firebasechatfinalmodule.utils.CircleImageView
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:id="@+id/iv_userprofile"
+            android:layout_toRightOf="@+id/iv_back"
+            android:layout_centerVertical="true"
+            android:src="@drawable/img1"
+            android:layout_marginLeft="@dimen/_4sdp"
+
+
+            />
+
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_usernameinfo"
+            android:layout_toRightOf="@+id/iv_userprofile"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_12sdp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_username"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"/>
+
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView android:layout_width="@dimen/_6sdp"
+                    android:layout_height="@dimen/_6sdp"
+                    android:id="@+id/iv_userstatus"
+                    android:src="@drawable/active_users"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_userstatus"
+                    android:text="Online"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:textSize="@dimen/_9sdp"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/ll_usernameinfo"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+
+            <ImageView android:layout_width="@dimen/_18sdp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_18sdp"
+                android:id="@+id/iv_delete"
+                android:src="@drawable/delete"
+
+                />
+
+            <ImageView android:layout_width="@dimen/_18sdp"
+                android:layout_weight="1"
+                android:id="@+id/iv_menuoptions"
+                android:layout_height="@dimen/_18sdp"
+                android:src="@drawable/menu"
+                android:layout_gravity="end"
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_bottomviewchat"
+            android:id="@+id/sendmessage"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            >
+
+        </include>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerview_chathistory"
+            tools:itemCount="24"
+            android:background="@android:color/white"
+            android:layout_above="@+id/sendmessage"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

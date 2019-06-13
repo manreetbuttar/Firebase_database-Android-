@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">FIrebaseDtaabase_OrionSolution</string>
+    <string name="app_name">FirebaseChatFinalModule</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+
+
+    <string name="login">Login</string>
+
+    <string name="password">Password</string>
+    <string name="remember">Remember me</string>
+    <string name="forgot_password">Forget Password</string>
+    <string name="signin">Sign In</string>
+    <string name="confirmpassword">Confirm Password</string>
+
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="phone_">Phone:</string>
+    <string name="firstandlastname">First and last Name</string>
+    <string name="question">Question</string>
+    <string name="send">Send</string>
+    <string name="location_on_map">LOCATION ON MAP</string>
+    <string name="contactform">Contact Form</string>
+    <string name="message">Message</string>
+    <string name="aldallal">Al Dallal</string>
+    <string name="enquiryform">ENQUIRY FORM</string>
+    <string name="favourite">Favourite</string>
+    <string name="logout">LOGOUT</string>
 </resources>

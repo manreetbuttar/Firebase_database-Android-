@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_6sdp"
+        android:gravity="bottom"
+        android:background="@android:color/transparent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout  android:layout_width="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="bottom"
+                   android:layout_marginBottom="@dimen/_52sdp"
+                   android:background="@drawable/roundedcurve_white"
+                   android:layout_height="@dimen/_200sdp">
+
+
+
+
+    <LinearLayout  android:layout_width="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_margin="@dimen/_4sdp"
+                   android:layout_height="wrap_content">
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:id="@+id/ll_document"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:layout_width="@dimen/_62sdp"
+                    android:background="@drawable/circle"
+                    android:layout_height="@dimen/_62sdp">
+
+
+                <ImageView
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/documents"
+                />
+
+
+            </RelativeLayout>
+
+
+            <TextView android:layout_width="match_parent"
+                      android:text="Document"
+                      android:textColor="@color/black"
+                      android:gravity="center"
+                      android:textSize="@dimen/_12sdp"
+                      android:layout_marginTop="6dp"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:id="@+id/ll_camera"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:layout_width="@dimen/_62sdp"
+                    android:background="@drawable/circle"
+                    android:layout_height="@dimen/_62sdp">
+
+
+                <ImageView
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/cameraformedia"
+                />
+
+
+            </RelativeLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:text="Camera"
+                      android:textColor="@color/black"
+                      android:gravity="center"
+                      android:textSize="@dimen/_12sdp"
+                      android:layout_marginTop="6dp"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:id="@+id/ll_gallery"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:layout_width="@dimen/_62sdp"
+                    android:background="@drawable/circle"
+                    android:layout_height="@dimen/_62sdp">
+
+
+                <ImageView
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/gallery"
+                />
+
+
+            </RelativeLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:text="Gallery"
+                      android:textColor="@color/black"
+                      android:gravity="center"
+                      android:textSize="@dimen/_12sdp"
+                      android:layout_marginTop="6dp"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout  android:layout_width="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_margin="12dp"
+                   android:layout_height="wrap_content">
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:layout_width="@dimen/_62sdp"
+                    android:background="@drawable/circle"
+                    android:layout_height="@dimen/_62sdp">
+
+
+                <ImageView
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/cameraformedia"
+                />
+
+
+            </RelativeLayout>
+
+
+            <TextView android:layout_width="match_parent"
+                      android:text="Audio"
+                      android:textColor="@color/black"
+                      android:gravity="center"
+                      android:textSize="@dimen/_12sdp"
+                      android:layout_marginTop="6dp"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:layout_width="@dimen/_62sdp"
+                    android:background="@drawable/circle"
+                    android:layout_height="@dimen/_62sdp">
+
+
+                <ImageView
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/cameraformedia"
+                />
+
+
+            </RelativeLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:text="Location"
+                      android:textColor="@color/black"
+                      android:gravity="center"
+                      android:textSize="@dimen/_12sdp"
+                      android:layout_marginTop="6dp"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:layout_width="@dimen/_62sdp"
+                    android:background="@drawable/circle"
+                    android:layout_height="@dimen/_62sdp">
+
+
+                <ImageView
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/cameraformedia"
+                />
+
+
+            </RelativeLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:text="Contact"
+                      android:textColor="@color/black"
+                      android:gravity="center"
+                      android:textSize="@dimen/_12sdp"
+                      android:layout_marginTop="6dp"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

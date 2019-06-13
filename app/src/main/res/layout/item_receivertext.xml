@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="10dp"
+                android:paddingRight="60dp"
+                android:id="@+id/rl_messageselectedforreceiver"
+                android:paddingLeft="15dp"
+                android:background="@drawable/selective_chatview"
+                android:clipToPadding="false">
+
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="horizontal"
+                  android:background="@drawable/receivebubble"
+                  android:padding="8dp"
+                  android:elevation="2dp"
+                  android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_receiver"
+                android:textSize="15dp"
+                android:padding="2dp"
+                android:layout_alignParentLeft="true"
+                android:text="This mesasge is from sender side "
+        />
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tv_currentimeforreceiver"
+                  android:text="12:30 .am"
+                  android:padding="2dp"
+                  android:layout_marginLeft="@dimen/_16sdp"
+                  android:textSize="@dimen/_9sdp"
+                  android:layout_marginTop="@dimen/_8sdp"
+
+        />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
